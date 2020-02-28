@@ -14,34 +14,64 @@ body {
 header {
 	background: #F8F8F8;
 	color: #C1C2C4;
-	height: 50px;
+	height: 4rem;
 	text-transform: uppercase;	
 	text-decoration: none;
-	padding: 20px;
+	vertical-align: center;
 }
 
 .container {
 	width: 80%;
 	margin: auto;
+	text-align: left;
+	padding: 1.4rem;
 }
 
 .phone {
-	float: left;
-	overflow: auto;
+	margin-top: auto;
 	text-decoration: none;
 }
 
 .header_menu {
 	float: right;
-	overflow: auto;
+	overflow:auto;
 	text-decoration: none;
+	margin: auto;
+	color: #B8B8B8
+	
+}
+.header_menu a {
+	padding: 0 0.35rem;
+}
+
+a:link {
+	text-decoration: none;
+	color: #B8B8B8;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #B8B8B8;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #589EC3;
 }
 
 #magnifying_button {
 	display: inline-block;
 	width: 1.5rem;
+	overflow; auto;
+	float: right;
 }
 
+#shopping_bag {
+	display: inline-block;
+	height: 1rem;
+	margin: 0 0.5rem;
+
+}
 .no_border {
 	border: none;
 }
@@ -65,18 +95,8 @@ input {
 	background-color: #F8F8F8;
 	border: none;
 	outline: none;
-	border-width: 0px;
-	    border-style: none;
-	    border-color: initial;
-	    border-image: initial;
-		text-transform: uppercase;
+	text-transform: uppercase;
+	text-align: center;
 }
 
-input::placeholder-shown {
-	font-family: inherit;
-	    font-size: 100%;
-	    line-height: 1.15;
-	    margin: 0;
-		text-transform: uppercase;	
-}
 
